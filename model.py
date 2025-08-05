@@ -14,3 +14,11 @@ def train_model(df):
     
     acc = accuracy_score(y_test, model.predict(X_test))
     return model, acc
+
+import joblib
+
+def load_model(path='saved_model/model.pkl'):
+    """
+    Loads the trained machine learning model from a .pkl file.
+    """
+    return joblib.load(path)

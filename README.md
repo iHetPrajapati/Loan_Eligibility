@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Loan Eligibility Predictor
 
 This project uses machine learning to predict loan approval based on applicant data.
@@ -22,3 +23,7 @@ This project uses machine learning to predict loan approval based on applicant d
 ## Deployment
 
 To deploy this app, push it to GitHub and connect it to [Streamlit Cloud](https://streamlit.io/cloud).
+=======
+# Loan_Eligibility
+Machine learning model to predict loan eligibility
+>>>>>>> 71cd3fc75eeb2112ffbdb4ad2471152b50d8ba60
